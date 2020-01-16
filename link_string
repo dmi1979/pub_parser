@@ -1,0 +1,2 @@
+matt 7: 13 14 prov 4: 18 19 hebrews 11: 10 13: 14 acts 9: 2 19: 9 23 22: 4 matthew 7: 8 luke 13: 24 matt 7: 15 psalms 78: 52 80: 1 100: 3 john 10: 11 matt 23: 2 matt 23: 13- 15 luke 6: 39 matt 23: 27 28 matt 7: 16- 19 psalm 58: 9 ecclesiastes 7: 6 isaiah 44: 14- 16 matthew 6: 30 13: 30 matt 7: 20 luke 6: 45 mark 7: 21- 23 mt 23err29
+#b(?<book>(\d{1,2}) )((?<chapter>(\d{1,3})\: )((\d{1,3})(\s?)*\s?-\s(\d{1,3})(\s?)*|(\d{1,3})(\s?)*\s?)*|(?<chapter>(\d{1,3})\: )(\d{1,3})(\s?)*|((\d{1,3})(\s?)*\s?-\s(\d{1,3})(\s?)*|(\d{1,3})(\s?)*\s?)*|(\d{1,3})(\s?)*)+#u
