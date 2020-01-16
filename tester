@@ -1,4 +1,0 @@
-<?php 
-
-$string="dkfjkdjfk\xe2\x80\x8b" =>' ', //unicode spaces
-    "\xe2\x81\xa0" =>' ', // unicode spaces"
