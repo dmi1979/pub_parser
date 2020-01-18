@@ -23,8 +23,7 @@ $pattern_replacement=array(
     
     
     
-    $pattern_book=//'ge\s|'.
-    implode ('|',array_keys($book));
+    $pattern_book=implode ('|',array_keys($book));
     $chvs='(?<chvs>.*?)';
     $c='\d{1,3}\s*[:]';
     $v='\d{1,3}';
