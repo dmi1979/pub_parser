@@ -45,6 +45,7 @@ $pub_url='/media/dmi/1c336c7c-8406-4fb3-b424-579f3727a993/pro/1978/w78+1%2F1/197
 
 
 $html=file_get_contents($pub_url);
+$string="matt. 7:13, 14 prov. 4:18, 19 hebrews 11:10; 13:14 acts 9:2; 19:9, 23; 22:4 matthew 7:8; luke 13:24 matt. 7:15 psalms 78:52; 80:1; 100:3 john 10:11 matt. 23:2 matt. 23:13-15; luke 6:39 matt. 23:27, 28 matt. 7:16-19 psalm 58:9; ecclesiastes 7:6; isaiah 44:14-16; matthew 6:30; 13:30 matt. 7:20 luke 6:45 mark 7:21-23 mt 23err29";
 
 $string=Replace($html);
 $string=ExtractLinks($string);
@@ -53,7 +54,6 @@ $string=str_replace(array_keys($str_repl),array_values($str_repl),$string);
 file_put_contents('link_string',"$string\n$link");
 // echo "\n$pattern_book";
 echo"\n_________________________\n";
- $string="matt. 7:13, 14 prov. 4:18, 19 hebrews 11:10; 13:14 acts 9:2; 19:9, 23; 22:4 matthew 7:8; luke 13:24 matt. 7:15 psalms 78:52; 80:1; 100:3 john 10:11 matt. 23:2 matt. 23:13-15; luke 6:39 matt. 23:27, 28 matt. 7:16-19 psalm 58:9; ecclesiastes 7:6; isaiah 44:14-16; matthew 6:30; 13:30 matt. 7:20 luke 6:45 mark 7:21-23 mt 23err29";
 echo $string;
 
 $string=preg_replace_callback(
